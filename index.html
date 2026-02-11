@@ -32,7 +32,7 @@
         .page-transition-enter-active { opacity: 1; transform: translateY(0); transition: all 300ms ease-out; }
     </style>
 
-<link rel="stylesheet" href="/index.css">
+<link rel="stylesheet" href="./index.css">
 <script type="importmap">
 {
   "imports": {
@@ -49,7 +49,7 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/sw.js').then(reg => {
+                navigator.serviceWorker.register('./sw.js').then(reg => {
                     console.log('SW registered:', reg);
                 }).catch(err => {
                     console.log('SW registration failed:', err);
