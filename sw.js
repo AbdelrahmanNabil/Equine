@@ -1,9 +1,9 @@
 
 const CACHE_NAME = 'equistudy-v1';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/data/questions.json'
+  '/Equine/',
+  '/Equine/index.html',
+  '/Equine/data/questions.json'
 ];
 
 self.addEventListener('install', (event) => {
